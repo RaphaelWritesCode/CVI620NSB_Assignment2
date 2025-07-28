@@ -10,7 +10,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, mean_absolu
 # ===============================
 
 # Load housing dataset
-df = pd.read_csv('house_price.csv')
+df = pd.read_csv(r'C:\Users\rtape\Downloads\Seneca\CVI620NSB_Summer2025\codes\Assignment2\Q1\house_price.csv')
 
 # Select features (size, bedroom) and target (price)
 X = df[['size', 'bedroom']]
